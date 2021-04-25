@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
           
       - name: Build project
-        run: echo Hello
+        run: ls && mkdir build && cd build
